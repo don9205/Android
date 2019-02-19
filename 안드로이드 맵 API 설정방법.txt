@@ -1,0 +1,20 @@
+﻿C:\Users\수강생\.android\debug.keystore를 확인
+
+C:\Program Files\Java\jdk-11.0.1\bin 경로로 들어가
+
+keytool.exe -list -v -keystore C:\Users\수강생\.android\debug.keystore
+명령 프롬프트에 입력 비밀번호 android
+
+sha1값을 긁어옴
+SHA1: 00:44:10:D3:05:76:B4:47:9A:0A:15:3E:7D:38:DD:87:1C:A7:15:45
+
+
+http://code.google.com/apis/console 에 접속하고 로그인
+
+AIzaSyDO-ydkQ73KRgIDHSdfkn6y_L9hxctoJSI 구글맵 키값
+
+bundle.gradle 스크립트에 dependencies의 마지막에
+implementation 'com.google.android.gms:play-services-location:16.0.0'추가
+implementation 'com.google.android.gms:play-services-maps:16.0.0' 추가
+
+
